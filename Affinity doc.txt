@@ -1,0 +1,10 @@
+DOCUMENTATION
+
+	For each tweet in the file, the document would include the text of the tweet and its profanity score.The profanity score can be calculated using a similar approach to the program described in my previous answer, 
+where a function takes in a sentence and a set of profanity words and returns the fraction of words in the sentence that are profanity words.
+
+1. The file tweets.txt contains one tweet per line.
+2. The function profanity_score splits the sentence into words using the regular expression \b\w+\b, 
+     which matches sequences of alphanumeric characters surrounded by word boundaries.
+3. The function profanity_score returns the profanity score as the fraction of profanity words in the sentence.
+4. The set of profanity words profanity_words is defined as a set of strings representing racial slurs
